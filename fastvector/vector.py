@@ -1,4 +1,4 @@
-from __future__ import annotations
+
 
 import array
 import numbers
@@ -11,7 +11,7 @@ from .dtypes import Dtype
 from .dtypes import Number
 from .dtypes import float64
 from functools import total_ordering
-
+from __future__ import annotations
 @total_ordering
 class VectorND:
     def __init__(self, *args: Any, dtype: Dtype = float64) -> None:

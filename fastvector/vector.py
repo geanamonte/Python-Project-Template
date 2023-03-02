@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import array
 import numbers
-from functools import total_ordering
+
 from math import sqrt
 from typing import Any
 from typing import Union
@@ -10,7 +10,7 @@ from typing import Union
 from .dtypes import Dtype
 from .dtypes import Number
 from .dtypes import float64
-
+from functools import total_ordering
 
 @total_ordering
 class VectorND:

@@ -12,6 +12,7 @@ from .dtypes import Number
 from .dtypes import float64
 
 
+
 @total_ordering
 class VectorND:
     def __init__(self, *args: Any, dtype: Dtype = float64) -> None:
